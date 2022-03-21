@@ -34,7 +34,16 @@
      <header>
          <h1>Coffee Right Now!</h1>
      </header>
-     <form onsubmit="event.preventDefault();">
+
+     <!-- Required -->
+     <!-- Submit -->
+     <!-- Disabled -->
+     <!-- Conditions -->
+
+    <!-- <form action="www.corycafe.com/orders" method="post"> -->
+    <!-- <form onsubmit="onSubmitOrder();"></form> -->
+    <!-- <form onsubmit="event.preventDefault();"> -->
+    <form onsubmit="onSubmitOrder();" onsubmit="event.preventDefault();">
         <div>
             <label for="fname">First Name:</label><br>
             <input type="text" id="fname" name="fname"><br>
@@ -43,10 +52,10 @@
             <input type="text" id="lname" name="lname"><br>
 
             <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
+            <input type="text" id="email" name="email" placeholder="me@example.com"><br>
 
             <label for="phone">Phone Number:</label><br>
-            <input type="text" id="phone" name="phone"><br>
+            <input type="text" id="phone" name="phone" placeholder="xxx-xxx-xxxx" required><br>
         </div>
 
         <div id="drinks">
@@ -69,10 +78,10 @@
         <div id="add-ons">
             <h2>Add-ons:</h2>
             <div id="add-options">
-                <input type="checkbox" id="milk" name="additives" checked>
+                <input type="checkbox" id="milk" name="additives" disabled>
                 <label for="milk">Milk</label><br>
 
-                <input type="checkbox" id="sugar" name="additives">
+                <input type="checkbox" id="sugar" name="additives" disabled>
                 <label for="sugar">Sugar</label><br>
 
                 <input type="checkbox" id="marshmellows" name="additives">
@@ -89,10 +98,16 @@
             <label for="message">Special Notes:</label><br>
             <textarea name="message" id="message" cols="30" rows="5" maxlength="10"></textarea> <!--Cols and rows take numeric values for setting width and height of text area-->
         </div>
-        <div>
-            <button type="submit" value="">Submit</button>
-        </div>
-           
+
+        <button type="submit" value="">Submit</button> 
+
      </form>
+
+     <script>
+         function onSubmitOrder() {
+            alert('Hi there');
+            console.log("His site")
+         }
+     </script>
   </body>
 </html>
