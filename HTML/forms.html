@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Forms</title>
+  </head>
+  <style>
+      body {
+          background-color: darkgoldenrod;
+      }
+      form, header {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+      #drinks {
+          width: 20%;
+          margin: auto;
+      }
+      #drink-options {
+        text-align: left;
+        padding-left: 50px;
+      }
+      #add-ons {
+          width: 20%;
+          margin: auto;
+      }
+      #add-options {
+        text-align: left;
+        padding-left: 50px;
+      }
+  </style>
+  <body>
+     <header>
+         <h1>Coffee Right Now!</h1>
+     </header>
+     <form onsubmit="event.preventDefault();">
+        <div>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+        </div>
+
+        <div id="drinks">
+            <h2>Drinks:</h2>
+            <div id="drink-options">
+                <input type="radio" id="coffee" name="drink" checked> <!-- checked is default value checked on load-->
+                <label for="coffee">Coffee</label><br>
+
+                <input type="radio" id="tea" name="drink">
+                <label for="tea">Tea</label><br>
+
+                <input type="radio" id="hotChocolate" name="drink"> <!-- checked is default value checked on load-->
+                <label for="hotChocolate">Hot Chocolate</label><br>
+
+                <input type="radio" id="water" name="drink">
+                <label for="water">Water</label><br>
+            </div>
+        </div>
+
+        <div id="add-ons">
+            <h2>Add-ons:</h2>
+            <div id="add-options">
+                <input type="checkbox" id="milk" name="additives" checked>
+                <label for="milk">Milk</label><br>
+
+                <input type="checkbox" id="sugar" name="additives">
+                <label for="sugar">Sugar</label><br>
+
+                <input type="checkbox" id="marshmellows" name="additives">
+                <label for="marshmellows">Marshmellows</label><br>
+
+                <input type="checkbox" id="lemon" name="additives">
+                <label for="lemon">Lemon</label><br>
+            </div>
+            
+        </div>
+        <br>
+       
+        <div>
+            <label for="message">Special Notes:</label><br>
+            <textarea name="message" id="message" cols="30" rows="5" maxlength="10"></textarea> <!--Cols and rows take numeric values for setting width and height of text area-->
+        </div>
+        <div>
+            <button type="submit" value="">Submit</button>
+        </div>
+           
+     </form>
+  </body>
+</html>
