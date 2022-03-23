@@ -1,0 +1,25 @@
+body {
+    background-color: darkgoldenrod;
+}
+form, header {
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+#drinks {
+    width: 20%;
+    margin: auto;
+}
+#drink-options {
+  text-align: left;
+  padding-left: 50px;
+}
+#add-ons {
+    width: 20%;
+    margin: auto;
+}
+#add-options {
+  text-align: left;
+  padding-left: 50px;
+}

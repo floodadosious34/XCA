@@ -1,0 +1,22 @@
+* {
+    font: Verdana, Arial, 'sans-serif' !important;/* <-- fonts */
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+
+#green {
+    color: green;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    border: 2px solid black;
+    line-height: 1; /* line height what is the nmeric input relate to as regards the size of the line to the screen?*/
+    font-style: italic;
+}

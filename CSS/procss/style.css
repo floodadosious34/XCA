@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100;200;400&display=swap');
+
+* {
+    background-color: black;
+}
+body {
+    margin: auto;
+    margin-top: 100px;
+    align-content: center;
+    align-items: center;
+    width: max-content;
+}
+#sign-in {
+    color: #3884C7;
+    background-color: black;
+    border-radius: 2%;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    width: auto;
+    border: 1px solid #3884C7;
+    height: 2em;
+    margin: 50px;
+}
+.profile {
+    width: 10px;
+}
+
+#continue {
+    color: white;
+    background-color:#347D39;
+    border-radius: 5px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    width: 20em;
+    height: 3em;
+    border: 0px;
+    margin: 50px;
+}
+
+#subscribe {
+    color: white;
+    background-color:indigo;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Genos', sans-serif;
+    font-weight:bold;
+    width: 8em;
+    height: 3em;
+    border: 2px solid white;
+    margin: 50px;
+}
