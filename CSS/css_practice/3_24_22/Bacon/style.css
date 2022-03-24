@@ -1,0 +1,25 @@
+body {
+    margin: auto 50px;
+}
+.summer {
+    float: right;
+    height: 100px;
+    /* width: 100px; */
+}
+
+.bacon {
+    float: left;
+    height: 100px;
+    /* width: 100px; */
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 2px;
+}
+.bacon-please {
+    float: right;
+    height: 100px;
+    /* width: 100px; */
+    border: 1px solid black;
+    padding: 2px;
+}
+
