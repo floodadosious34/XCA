@@ -12,13 +12,8 @@ body {
     margin: 0;
 }
 
-section {
-    /* float: left; */
-}
-
 .container {
     padding: 50px 200px 0px; 
-    /* background-color:#bb3e03; */
     max-width: 100%; 
     min-height: 100%;
 }
@@ -74,6 +69,10 @@ h1 {
     margin-top: 0px; 
 }
 
+i {
+    color: black;
+}
+
 #button {
     background-color: #ee9b00;
     border: 2px solid white; 
@@ -81,30 +80,21 @@ h1 {
     padding: 8px; 
     margin-top: 16px; 
     float:left; 
+    color: #0a9396;
 }
 
-#button a {
-    text-decoration: none;
-    color: #0a9396; 
-}
 
 .about_me span:first-of-type {
     font-style: italic;
 }
 
-.about_me span:first-of-type img {
-    font-style: italic;
-    width: 40px; 
-    height: 40px;
-    fill:#6f2205;
-    border: 1px solid black;
-    border-radius: 50%;
-}
 footer {
     margin-top: 80vh;
     background-color: #005f73;
     height: 100px;
     width: 100%;
+    display: sticky;
+    text-align: right;
 }
 
 
